@@ -1,0 +1,19 @@
+.card{
+    background: rgb(248, 246, 246);
+}
+#order img{
+    float:left;
+    height:400px;
+}
+.now{
+    float: center;
+    text-align: center;
+    padding-top: 15%;
+    font-size: large;
+    font-family: 'Source Serif Pro', serif;
+}
+#order h1{
+    text-align: center;
+    color: darkred;
+    font-family: 'Lobster', cursive;
+}
