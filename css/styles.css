@@ -1,4 +1,4 @@
-.card{
+.row{
     background: rgb(248, 246, 246);
 }
 #order img{
@@ -8,7 +8,7 @@
 .now{
     float: center;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 25%;
     font-size: large;
     font-family: 'Source Serif Pro', serif;
 }
@@ -16,4 +16,11 @@
     text-align: center;
     color: darkred;
     font-family: 'Lobster', cursive;
+}
+.forms{
+    display:none;
+    float:right;
+    padding-right:30%;
+    padding-top:15%;
+    font-family: 'Source Serif Pro', serif;
 }
