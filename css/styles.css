@@ -2,14 +2,12 @@
     background: rgb(248, 246, 246);
 }
 #order img{
-    float:left;
     height:400px;
 }
 .now{
-    float: center;
-    text-align: center;
     padding-top: 25%;
-    font-size: large;
+    text-align: center;
+    font-size: larger;
     font-family: 'Source Serif Pro', serif;
 }
 #order h1{
