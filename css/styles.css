@@ -31,3 +31,24 @@
 #services .box:hover .text{
     transform: scaleY(1);
 }
+#reservations h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: fantasy;
+    color: darkred;
+}
+#reservations img{
+    height:450px;    
+}
+#reservations .register{
+    display: none;
+}
+#reservations .enter{
+    padding-left: 30%;
+    padding-top: 30%;
+    text-align: center;
+    font-family: fantasy;
+}
+.register form{
+    padding-left:30%;
+}
