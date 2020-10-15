@@ -1,0 +1,54 @@
+#services h1{
+    text-align: center;
+    color:darkred;
+}
+#services .box .imgBox img{
+    overflow: hidden;
+    height:410px;
+    transition: transform 2s;
+}
+#services .box .imgBox img#one{
+    width: 280px;
+}
+#services .box .imgBox img#three{
+    width: 280px;
+}
+#services .box .text{
+    position:absolute;
+    top:10px;
+    bottom:10px;
+    right:10px;
+    left:35px;
+    background: rgba(0, 0, 0, 0.384);
+    border: 1px solid burlywood;
+    transform: scaleY(0);
+    transition: transform .5s;
+    color: white;
+    text-align: center;
+    padding:50px;
+    font-family: fantasy;
+}
+#services .box:hover .text{
+    transform: scaleY(1);
+}
+#reservations h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: fantasy;
+    color: darkred;
+}
+#reservations img{
+    height:450px;    
+}
+#reservations .register{
+    display: none;
+}
+#reservations .enter{
+    padding-left: 30%;
+    padding-top: 30%;
+    text-align: center;
+    font-family: fantasy;
+}
+.register form{
+    padding-left:30%;
+}
