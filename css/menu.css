@@ -1,16 +1,16 @@
 h2{
     font-weight: bolder;
-    color:red;
+    color:#660000;
     text-align: center;
-    background-image: url(https://www.vmcdn.ca/f/files/halifaxtoday/images/food/012519-wine-and-food-dining-restaurant-.jpeg;w=960);
+    
 }
 /*.h3{
     font-weight: bolder;
     color:rgb(31, 233, 31);
     text-align: center; 
 }*/
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFkCQz5dhxGGIwrZZGAvsXow6eA4UNdMfCjA&usqp=CAU);
+.menubac{
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -34,4 +34,45 @@ body{
 }
 .call{
     color: white;
+}
+/*styling of menu*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+ .homenav{
+    background-color: #660000;
+}
+
+.logo{
+    height: 20vh;
+    width: 20vh;
+}
+#homee{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://p1.pxfuel.com/preview/987/807/745/wine-restaurant-the-drink-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+
+}
+.navbar-light{
+    background: transparent;
+}
+#homes{
+    color: #660000;
+    font-weight: bold;
+}
+#nav2{
+    color:white;
+    font-weight: bold;
+}
+#homes:hover{
+    color:white;
+    background-color:#660000;
+}
+#nav2:hover{
+    color:#660000;
+    background-color: white;
 }

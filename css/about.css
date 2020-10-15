@@ -25,4 +25,39 @@
     
     
 }
+/**********nav styles*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 20vh;
+    width: 20vh;
+}
+#about nav{
+    background-color: #660000;;
+}
+
+
+
+
+
+.navbar-light{
+    background: transparent;
+}
+#homes{
+    color: #660000;
+    font-weight: bold;
+}
+#nav2{
+    color:white;
+    font-weight: bold;
+}
+#homes:hover{
+    color:white;
+    background-color:#660000;
+}
+#nav2:hover{
+    color:#660000;
+    background-color: white;
+}
   
