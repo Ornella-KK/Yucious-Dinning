@@ -1,11 +1,15 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+ .homenav{
+    background-color: #660000;
+}
+
 .logo{
     height: 20vh;
     width: 20vh;
 }
-#home{
+#homee{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://p1.pxfuel.com/preview/987/807/745/wine-restaurant-the-drink-food.jpg");
     background-size: cover;
     background-repeat: no-repeat;
